@@ -50,10 +50,10 @@ const Sidebar: React.FC<SidebarProps> =  ({onSubscribe}) =>{
         <div className={styles.authorInfo}>
           <img
             src={cpfPng}
-            alt="孟德"
+            alt="黑色一天"
             className={styles.avatar}
           />
-          <p>孟德，一名在校学习的计算机系的学生，喜好看小说，渴望变得优秀</p>
+          <p>黑色一天，一名在校学习的计算机系的学生，本人为在校计算机专业学生，热爱信息技术与编程开发，系统学习计算机基础、编程语言、数据结构与算法等核心课程。学习态度认真，动手能力较强，乐于通过项目实践巩固知识，具备良好的逻辑思维与自主学习能力，关注前沿技术发展，希望在计算机领域持续深耕，不断提升专业素养与综合能力。</p>
         </div>
       </section>
 

@@ -43,7 +43,7 @@ interface Article {
             id: 1,
             title: "理解 JavaScript 闭包",
             date: "2030-03-10",
-            author: "孟德",
+            author: "黑色一天",
             contentSections: [
               { title: "什么是闭包？", text: "闭包是指有权访问另一个函数作用域中的变量的函数..." },
               { title: "实际应用场景", text: "闭包常用于模块化、数据私有化...", code: `function createCounter() {...}` }
@@ -54,7 +54,7 @@ interface Article {
             id: 2,
             title: "CSS Grid 入门",
             date: "2030-03-15",
-            author: "孟德",
+            author: "黑色一天",
             contentSections: [
               { title: "什么是Grid布局？", text: "Grid 是二维布局系统，可同时处理行和列..." }
             ],
@@ -64,11 +64,24 @@ interface Article {
             id: 3,
             title: "React 入门基础",
             date: "2030-04-02",
-            author: "孟德",
+            author: "黑色一天",
             contentSections: [
               {
                 title: "什么是React",
                 text: "React 是一个用于构建用户界面（网页 / APP 页面）的 JavaScript 前端框架，由 Meta（原 Facebook）公司开发，是目前全球最流行、使用最广泛的前端开发工具之一。"
+              }
+            ],
+            tags: ["React", "框架"]
+          },
+           {
+            id: 4,
+            title: "Web前端开发技术",
+            date: "2030-04-09",
+            author: "黑色一天",
+            contentSections: [
+              {
+                title: "什么是Web前端开发",
+                text: "Web 前端开发主要负责搭建网页与用户交互的界面，用 HTML、CSS 和 JavaScript 实现页面布局、样式美化与交互效果，让网站在电脑、手机等设备上都能正常显示和使用，是连接用户与后端数据的重要部分。"
               }
             ],
             tags: ["React", "框架"]

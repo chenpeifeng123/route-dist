@@ -5,7 +5,7 @@ import styles from './Pages.module.css';
 import { getArticles } from '../data/articles';  // 稍后创建数据模块
 
 const HomePage: React.FC = () => {
-  const articles = getArticles().slice(0, 2); // 只取两篇作为首页展示
+  const articles = getArticles().slice(0, 4); // 只取两篇作为首页展示
 
   return (
     <>
