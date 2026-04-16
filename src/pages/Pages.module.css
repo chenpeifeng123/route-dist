@@ -106,3 +106,29 @@
   .highlightCta a:hover {
     text-decoration: underline;
   }
+
+  /* 你原有样式保持不变，下面追加论坛专用样式 */
+
+.forumContent {
+  line-height: 1.8;
+  font-size: 16px;
+  color: #333;
+}
+
+.forumSubTitle {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.forumList {
+  padding-left: 20px;
+  margin: 12px 0;
+}
+
+.forumList li {
+  margin-bottom: 8px;
+  list-style: disc;
+}

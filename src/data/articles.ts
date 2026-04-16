@@ -44,6 +44,19 @@ export interface Article {
           }
         ],
         tags: ["React", "框架"]
+      },
+      {
+        id: 4,
+        title: "Web前端开发技术",
+        date: "2030-04-09",
+        author: "黑色一天",
+        contentSections: [
+          {
+            title: "什么是Web前端开发",
+            text: "Web 前端开发主要负责搭建网页与用户交互的界面，用 HTML、CSS 和 JavaScript 实现页面布局、样式美化与交互效果，让网站在电脑、手机等设备上都能正常显示和使用，是连接用户与后端数据的重要部分。"
+          }
+        ],
+        tags: ["Web前端", "架构"]
       }
   ];
   

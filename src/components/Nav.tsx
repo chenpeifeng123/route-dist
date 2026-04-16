@@ -8,6 +8,7 @@ const Nav: React.FC = () => {
       <ul className={styles.navList}>
         <li><NavLink to="/" className={({ isActive }) => isActive ? styles.active : undefined}>首页</NavLink></li>
         <li><NavLink to="/articles" className={({ isActive }) => isActive ? styles.active : undefined}>文章</NavLink></li>
+        <li><NavLink to="/forum" className={({ isActive }) => isActive ? styles.active : undefined}>论坛</NavLink></li>
         <li><NavLink to="/about" className={({ isActive }) => isActive ? styles.active : undefined}>关于我</NavLink></li>
       </ul>
     </nav>
