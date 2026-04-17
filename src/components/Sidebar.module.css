@@ -1,7 +1,11 @@
+
+/* 新加：页面左右布局 */
 .sidebar {
     display: flex;
     flex-direction: column;
     gap: 25px;
+
+    
   }
   
   .widget {
@@ -79,7 +83,7 @@
   
   .subscribeForm button {
     padding: 10px;
-    background: #e67e22;
+    background: #3a90ed;
     color: white;
     border: none;
     border-radius: 4px;
@@ -112,3 +116,4 @@
       gap: 15px;
     }
   }
+  

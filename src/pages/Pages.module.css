@@ -109,26 +109,41 @@
 
   /* 你原有样式保持不变，下面追加论坛专用样式 */
 
+/* 论坛页面样式 - 自动适配明暗主题 */
 .forumContent {
   line-height: 1.8;
-  font-size: 16px;
-  color: #333;
+  font-size: 1.05rem;
+  color: var(--text-color);
 }
 
 .forumSubTitle {
-  margin-top: 24px;
-  margin-bottom: 12px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #222;
+  font-size: 1.4rem;
+  margin: 24px 0 12px 0;
+  color: var(--text-color);
+  border-left: 4px solid #3498db;
+  padding-left: 10px;
 }
 
 .forumList {
-  padding-left: 20px;
-  margin: 12px 0;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
 }
 
 .forumList li {
+  padding: 10px 14px;
   margin-bottom: 8px;
-  list-style: disc;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-color);
+}
+
+.notice {
+  margin-top: 24px;
+  padding: 12px;
+  background: rgba(52, 152, 219, 0.1);
+  border-left: 4px solid #3498db;
+  border-radius: 6px;
+  color: var(--text-color);
 }

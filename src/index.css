@@ -7,20 +7,23 @@
 
 /* 定义明亮主题的 CSS 变量 */
 :root {
-  --bg-color: #f9f9f9;
+  --bg-image: url('/0.jpg');
+  /* --bg-color: #f9f9f97e; */
   --text-color: #333;
-  --card-bg: white;
-  --border-color: #eaecef;
-  --code-bg: #f4f6f9;
+  /* --card-bg: rgb(226, 223, 223); */
+  --card-bg: rgba(255, 255, 255, 0.25);   /* 👈 浅色半透明白卡片 */
+  --border-color: rgba(255,255,255,0.3); /* 👈 半透明边框 */
+  --code-bg: rgba(255, 255, 255, 0.2);
 }
 
 /* 暗黑主题的 CSS 变量（覆盖） */
 .dark {
-  --bg-color: #1a1a1a;
+  --bg-image: url('/yw.jpg'); /* 👈 深色模式图 */
+  /* --bg-color: #810a0a; */
   --text-color: #f0f0f0;
-  --card-bg: #2c2c2c;
-  --border-color: #444;
-  --code-bg: #2d2d2d;
+  --card-bg: rgba(0, 0, 0, 0.3);        /* 👈 深色半透明黑卡片 */
+  --border-color: rgba(255,255,255,0.1);
+  --code-bg: rgba(0, 0, 0, 0.4);
 }
 
 body {
@@ -28,5 +31,7 @@ body {
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--bg-color);
+  background-image: var(--bg-image);
   transition: background-color 0.3s, color 0.3s;
+  background-attachment: fixed; /* 固定不滚动 */
 }

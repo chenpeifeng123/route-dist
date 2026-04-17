@@ -36,7 +36,7 @@ const ForumPage: React.FC = () => {
           <h3 className={styles.forumSubTitle}>论坛规则</h3>
           <p>文明交流、尊重他人、拒绝广告、专注技术、共同进步～</p>
 
-          <p>📌 论坛持续更新中，欢迎常来交流技术！</p>
+          <p className={styles.notice}>📌 论坛持续更新中，欢迎常来交流技术！</p>
         </div>
       </div>
     </>

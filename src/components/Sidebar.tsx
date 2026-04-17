@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'; // 1. 导入
 import styles from './Sidebar.module.css';
-import cpfPng from '../assets/cpf.png';
-import dbPng from '../assets/peizheng.png';
-import JDPng  from '../assets/baidu.png';
+import hsytPng from '../assets/hsyt.png';
+import sgsPng from '../assets/sgs.png';
+import djsyPng  from '../assets/djsy.png';
 
 // 定义 Props 类型，包含一个可选的函数
 interface SidebarProps {
@@ -49,11 +49,11 @@ const Sidebar: React.FC<SidebarProps> =  ({onSubscribe}) =>{
         <h3>关于作者</h3>
         <div className={styles.authorInfo}>
           <img
-            src={cpfPng}
+            src={hsytPng}
             alt="黑色一天"
             className={styles.avatar}
           />
-          <p>黑色一天，一名在校学习的计算机系的学生，本人为在校计算机专业学生，热爱信息技术与编程开发，系统学习计算机基础、编程语言、数据结构与算法等核心课程。学习态度认真，动手能力较强，乐于通过项目实践巩固知识，具备良好的逻辑思维与自主学习能力，关注前沿技术发展，希望在计算机领域持续深耕，不断提升专业素养与综合能力。</p>
+          <p>黑色一天，一名在校学习的计算机系的学生，本人为在校计算机专业学生，热爱信息技术与编程开发，系统学习计算机基础、编程语言、数据结构与算法等核心课程。</p>
         </div>
       </section>
 
@@ -90,8 +90,8 @@ const Sidebar: React.FC<SidebarProps> =  ({onSubscribe}) =>{
       <section className={styles.widget}>
         <h3>合作伙伴</h3>
         <div className={styles.partners}>
-          <img src={dbPng} alt="Partner 1" />
-          <img src={JDPng} alt="Partner 2" />
+          <img src={sgsPng} alt="Partner 1" />
+          <img src={djsyPng} alt="Partner 2" />
         </div>
       </section>
     </aside>
