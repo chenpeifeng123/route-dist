@@ -46,7 +46,7 @@ const Sidebar: React.FC<SidebarProps> =  ({onSubscribe}) =>{
     <aside className={styles.sidebar}>
       {/* 作者简介（社交证明） */}
       <section className={styles.widget}>
-        <h3>关于作者</h3>
+        <h3 className={styles.widgetTitle}>关于作者</h3>
         <div className={styles.authorInfo}>
           <img
             src={hsytPng}
@@ -61,13 +61,13 @@ const Sidebar: React.FC<SidebarProps> =  ({onSubscribe}) =>{
 
        {/* 在某个位置显示当前时间，作为演示 */}
        <section className={styles.widget}>
-        <h3>当前时间</h3>
-        <p>{currentTime.toLocaleTimeString()}</p>
+        <h3 className={styles.widgetTitle}>当前时间</h3>
+        <p className={styles.clock}>{currentTime.toLocaleTimeString()}</p>
       </section>
 
       {/* 社交链接（信任元素） */}
       <section className={styles.widget}>
-        <h3>关注我</h3>
+        <h3 className={styles.widgetTitle}>关注我</h3>
         <ul className={styles.socialLinks}>
           <li><a href="#" aria-label="GitHub">GitHub</a></li>
           <li><a href="#" aria-label="Twitter">Twitter</a></li>
@@ -78,7 +78,7 @@ const Sidebar: React.FC<SidebarProps> =  ({onSubscribe}) =>{
 
       {/* 订阅 CTA - 修改表单，添加 onSubmit 事件 */}
       <section className={`${styles.widget} ${styles.ctaWidget}`}>
-        <h3>订阅更新</h3>
+        <h3 className={styles.widgetTitle}>订阅更新</h3>
         <p>获取最新的文章和技术干货，每周发送一次，随时退订。</p>
         <form className={styles.subscribeForm} onSubmit={handleSubmit}>
           <input type="email" name="email" placeholder="你的邮箱" required />
@@ -88,7 +88,7 @@ const Sidebar: React.FC<SidebarProps> =  ({onSubscribe}) =>{
 
       {/* 合作伙伴 logo（社交证明） */}
       <section className={styles.widget}>
-        <h3>合作伙伴</h3>
+        <h3 className={styles.widgetTitle}>合作伙伴</h3>
         <div className={styles.partners}>
           <img src={sgsPng} alt="Partner 1" />
           <img src={djsyPng} alt="Partner 2" />

@@ -13,7 +13,7 @@ export interface Article {
       id: 1,
       title: "理解 JavaScript 闭包",
       date: "2030-03-10",
-      author: "孟德",
+      author: "黑色一天",
       summary: "闭包是JavaScript中最重要的概念之一，本文带你彻底理解闭包原理及应用。",
       contentSections: [
         { title: "什么是闭包？", text: "闭包是指有权访问另一个函数作用域中的变量的函数。创建闭包的常见方式是在一个函数内部创建另一个函数。" },
@@ -25,7 +25,7 @@ export interface Article {
       id: 2,
       title: "CSS Grid 入门",
       date: "2030-03-15",
-      author: "孟德",
+      author: "黑色一天",
       summary: "Grid布局是现代CSS布局神器，本文带你掌握二维布局的核心。",
       contentSections: [
         { title: "什么是Grid布局？", text: "Grid 是二维布局系统，可同时处理行和列。通过将容器定义为网格，可以轻松地将子元素放置到任何你想要的位置。" }
@@ -36,7 +36,7 @@ export interface Article {
         id: 3,
         title: "React 入门基础",
         date: "2030-04-02",
-        author: "孟德",
+        author: "黑色一天",
         contentSections: [
           {
             title: "什么是React",

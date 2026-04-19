@@ -8,13 +8,16 @@
     
   }
   
-  .widget {
-    background: var(--card-bg);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    border: 1px solid var(--border-color);
-  }
+.widget {
+  background: var(--card-bg);
+  backdrop-filter: var(--blur);
+  -webkit-backdrop-filter: var(--blur);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border: 1px solid var(--border-color);
+  text-align: center; /* 全局居中 */
+}
   
   .widget h3 {
     font-size: 1.2rem;
@@ -22,6 +25,7 @@
     padding-bottom: 8px;
     border-bottom: 2px solid #3498db;  /* 品牌色保持不变 */
     color: var(--text-color);
+    text-align: center; /* 全局居中 */
   }
   
   .authorInfo {
@@ -116,4 +120,16 @@
       gap: 15px;
     }
   }
-  
+  /* 时间样式 */
+.clock {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #3498db;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  background: var(--card-bg);
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(6px);
+}
