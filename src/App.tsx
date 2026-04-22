@@ -15,7 +15,7 @@ import NotFoundPage from './pages/NotFoundPage';
 import ForumPage from './pages/ForumPage'; // 👈 新增导入论坛页面
 
 const App: React.FC = () => {
-  const [blogTitle] = useState<string>("我的技术博客 test!");
+  const [blogTitle] = useState<string>("Welcome to my blog!");
 
   const handleSubscribe = (email: string) => {
     console.log("App 组件收到了订阅邮箱:", email);
